@@ -17,13 +17,15 @@ public class Division {
 		number2 = keyboard.nextDouble();
 		
 		keyboard.close();
-		// Print The Answer out
+		
+		// Print The Possible Errors
 		if (number2 == 0) {
 			System.out.println("Division by zero is not possible");
 			System.out.println("Please run the program again");
 			System.out.println("Enter a number other than zero");
 		}
 		
+		// Print The Answer
 		else{
 			quotient = number1 / number2;
 			System.out.println("Divided by: " +  number2);
